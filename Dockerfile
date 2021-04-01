@@ -5,7 +5,7 @@ WORKDIR usr/src/app
 
 ADD package.json /usr/src/app
 
-RUN npm install --production -no-package-lock
+RUN npm install -no-package-lock
 
 RUN npm install -g typescript
 
